@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bonjour JavaScript 01</title>
+  </head>
+  <body>
+    <h1>Bonjour JavaScript 01</h1>
+    <a href="/">retour</a>
+    <script>
+      // active mode strict
+      'use strict'
+      // déclare la variable message et affecte lui la valeur "Hello !"
+      let message = "Hello !"
+      // affiche le message
+      alert(message)
+      const question ="Comment tu t'appelles?"
+      const name = prompt(question)
+      console.log(question)
+      console.log(name)
+      // déclare la variable name et affecte lui la valeur d'etrée utilisateur, qui répond à la question 'Comment tu t'appelles ?'
+      // personnalise le message en y ajoutant le nom d'utilisateur
+      //message = "Hello "+ name + "!"
+      //const response = message + name
+      message = `Hello ${name} !`
+      alert(message)
+      //alert(response)
+      // affiche le message
+    </script>
+  </body>
+</html>
